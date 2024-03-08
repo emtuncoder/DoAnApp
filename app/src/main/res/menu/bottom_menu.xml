@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:title="Home"
+    android:id="@+id/bottomHome"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_home"/>
+    <item
+        android:title="Setting"
+        android:id="@+id/bottomSetting"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_setting"/>
+    <item
+        android:title="Information"
+        android:id="@+id/bottomInfo"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info"/>
+</menu>
